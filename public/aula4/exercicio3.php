@@ -6,6 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <?php
+        $alunos = ["Ana","João","Maria","Pedro","Lucas"];
+
+        foreach ($alunos as $aluno){
+            echo "Aluno: $aluno <br>";
+        }
+    ?>
 </body>
 </html>

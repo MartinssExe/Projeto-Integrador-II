@@ -1,5 +1,8 @@
 <?php
 require '../vendor/autoload.php';
+// include 'aula2/imagem.php';
+// include 'aula3/index1.php';
+include 'aula3/index2.php';
 
 use Application\Hello;
 ?>
@@ -10,8 +13,8 @@ use Application\Hello;
     <link href="/css/default.css" rel="stylesheet" />
     <title>Document</title>
 </head>
-<body>
+<!-- <body>
     <h1>PHP & Mysql</h1>
     <p><?= Hello::message() ?></p>
-</body>
+</body> -->
 </html>
